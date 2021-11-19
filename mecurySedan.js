@@ -92,15 +92,19 @@ class Car extends vehicleBaseClass.Vehicle {
 
 }
 
+// Testing Car class
 let car = new Car("Toyota", "Sedan", "2021", "blue", "10202");
-console.log(car)
+console.log(car)    // initial car creat
 
+// set additional attribute
 car.numberOfWheels = 6;
 car.passenger = 10;
 car.maximumPassengers = 15;
 
+// display car with custom attribute
 console.log(car)
 
+// test car methods
 car.loadPassenger(3);
 
 console.log(car);
@@ -109,3 +113,5 @@ car.start();
 
 car.fuel = 0;
 car.start();
+
+// Trying out Truck Class
